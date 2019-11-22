@@ -546,7 +546,7 @@ tr, td, th { vertical-align: middle; }
 
 .site-subtitle { display: block; font-size: 0.625em; }
 
-.masthead__menu { float: left; margin-left: 0; margin-right: 0; width: 100%; clear: both; }
+.masthead__menu { float: left; margin-left: 0; margin-right: 0; width: 100%; margin-bottom: -0.5em; clear: both; }
 .masthead__menu .site-nav { margin-left: 0; }
 @media (min-width: 37.5em) { .masthead__menu .site-nav { float: right; } }
 .masthead__menu ul { margin: 0; padding: 0; clear: both; list-style-type: none; }
@@ -979,9 +979,9 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .page__hero { position: relative; margin-bottom: 2em; clear: both; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.25s; animation-delay: 0.25s; }
 .page__hero::after { clear: both; content: ""; display: table; }
-.page__hero--overlay { position: relative; margin-bottom: 0.2em; padding: 3.5em 0; clear: both; background-size: cover; background-repeat: no-repeat; background-position: center; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.25s; animation-delay: 0.25s; }
+.page__hero--overlay { position: relative; margin-bottom: 0.2em; padding: 2.5em 0; clear: both; background-size: cover; background-repeat: no-repeat; background-position: center; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.25s; animation-delay: 0.25s; }
 .page__hero--overlay::after { clear: both; content: ""; display: table; }
-.page__hero--overlay a { color: #fff; }
+.page__hero--overlay a { color: #fff; background-color: rgba(0, 120, 180, 0.4); border-style: dashed; border-width: medium; font-family: frosty; }
 .page__hero--overlay .wrapper { padding-left: 1em; padding-right: 1em; }
 @media (min-width: 80em) { .page__hero--overlay .wrapper { max-width: 1280px; } }
 .page__hero--overlay .page__title, .page__hero--overlay .page__meta, .page__hero--overlay .comment__date, .page__hero--overlay .page__lead, .page__hero--overlay .btn, .page__hero--overlay #goog-wm-sb { color: #fff; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); }
