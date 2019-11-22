@@ -1,0 +1,16 @@
+main:
+  - title: Home
+    url: /index.html
+  - title: Partners
+    url: /partners/index.html
+  - title: Members
+    url: /members/index.html
+  - title: Education
+    url: /education/index.html
+  - title: Research
+    sublinks:
+    - title: Projects
+      url: /projects/index.html
+    - title: Publications
+  - title: Contact
+    url: /contact/index.html
