@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : 
 name                     : "me"
 description              : "Demonstrating that minimal mistakes site can work with github-pages" 
-url                      : https://github.com/imaginginpsychiatry/neuroplatform2 # the base hostname & protocol for your site 
+url                      : https://github.com/imaginginpsychiatry # the base hostname & protocol for your site 
 baseurl                  : /neuroplatform2 # the subpath of your site, e.g. "/blog"
 repository               : imaginginpsychiatry/neuroplatform2 # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"                   
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
