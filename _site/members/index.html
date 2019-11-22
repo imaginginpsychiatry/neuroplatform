@@ -1,0 +1,910 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.17.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title></title>
+<meta name="description" content="Demonstrating that minimal mistakes site can work with github-pages">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="">
+<meta property="og:title" content="">
+<meta property="og:url" content="http://localhost:4000/neuroplatform2/members/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/neuroplatform2/members/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "me",
+      "url": "http://localhost:4000/neuroplatform2/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/neuroplatform2/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/neuroplatform2/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+
+          <a class="site-logo" href="/neuroplatform2/"><img src="assets/images/all_logos.jpg" alt="" style="margin-right: -65px;margin-top: 2px;width: 500px;">
+          </a>
+    
+        <a class="site-title" href="/neuroplatform2/">
+          
+          
+        </a>
+        <ul class="visible-links">
+                
+                
+                    <li class="masthead__menu-item">
+                        <a href="/neuroplatform2/index.html">Home</a>
+                    </li>
+                
+            
+                
+                
+                    <li class="masthead__menu-item">
+                        <a href="/neuroplatform2/partners/index.html">Partners</a>
+                    </li>
+                
+            
+                
+                
+                    <li class="masthead__menu-item">
+                        <a href="/neuroplatform2/members/index.html">Members</a>
+                    </li>
+                
+            
+                
+                
+                    <li class="masthead__menu-item">
+                        <a href="/neuroplatform2/education/index.html">Education</a>
+                    </li>
+                
+            
+                
+                
+                    <li class="dropdown ">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research    <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
+                        <ul class="dropdown-content">
+                            
+                                <li>
+                                    <a href="/neuroplatform2/projects/index.html">    Projects</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="/neuroplatform2">    Publications</a>
+                                </li>
+                            
+                        </ul>
+                    </li>
+                
+            
+                
+                
+                    <li class="masthead__menu-item">
+                        <a href="/neuroplatform2/contact/index.html">Contact</a>
+                    </li>
+                
+            
+        </ul>
+
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+
+        <button class="greedy-nav__toggle hidden" type="button" style="background-color: transparent;">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="http://localhost:4000/neuroplatform2/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/neuroplatform2/members" itemprop="item"><span itemprop="name">Members</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current"></li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <!-- For all browsers -->
+
+<!------------------------------------------------------ Steering Board ----------------------------------------------------->
+
+<h2 style="margin-bottom: 25px; text-align: center; margin-top: -0.1em; margin-bottom: 2em;">NeuroPlatform Steering Board</h2>
+
+<div class="feature__wrapper" style="width: 100%;">
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/bert.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name"><a href="https://neu3ca.github.io/member/bert/">Bert Aldenkamp</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">Senior investigator and chair <br /> (KH, Maastricht UMC, TU/e, UZ Ghent)</p>
+                    <p style="font-size: 15px; text-align: center">    
+                    I am a clinical neuropsychologist and vice-chair of the R&amp;D department of epilepsy centre Kempenhaeghe. I am also a professor of epileptology at Maastricht UMC and a professor of Imaging &amp; Cognition at TU/e.</p>
+            </div>   
+        </div>
+      </div>
+    </div>
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/paul.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name"><a href="https://neu3ca.github.io/member/paul/">Paul Boon</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center;">Senior investigator and co-chair <br /> (UZ Ghent, U Ghent, KH, TU/e)</p>
+                    <p style="font-size: 15px; text-align: center">    
+                    I am head of the neurology department at UZ Ghent, director of the Institute for Neuroscience U Ghent, head of the Laboratory for Clinical and Experimental Neurophysiology, Neurobiology and Neuropsychology (LCEN3), and director R&amp;D at epilepsy centre Kempenhaeghe.</p>
+            </div>   
+        </div>
+      </div>
+    </div>
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/jan.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name"><a href="https://neu3ca.github.io/member/paul/">Jan Bergmans</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">Senior investigator <br /> (TU/e, KH, Philips Research)</p>
+                    <p style="font-size: 15px; text-align: center">    
+                    I am the head of the Signal Processing Systems group at TU/e.</p>
+            </div>   
+        </div>
+      </div>
+
+    </div> 
+    
+    <div class="feature__item" style="margin-top: 10px;">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/marcelbreeuwer.jpeg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title">
+                <h3 itemprop="name"><a href="https://neu3ca.github.io/member/marcelbreeuwer/">Marcel Breeuwer</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">Professor and principal scientist <br /> (TU/e, Philips Healthcare)</p>
+                    <p style="font-size: 15px; text-align: center"> 
+                    I am a professor at the Medical Image Analysis group, Biomedical Engineering department, TU/e, and a principal scientist at MR Clinical Science, Philips Healthcare.</p>
+            </div>   
+        </div>
+      </div>
+    </div>    
+
+    <div class="feature__item" style="margin-top: 10px;">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/portrait.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title">
+                <h3 itemprop="name"><a href="">Marjolein Lieshout</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center"></p>
+                    <p style="font-size: 15px; text-align: center"> 
+                    </p>
+            </div>   
+        </div>
+      </div>
+    </div> 
+
+    <div class="feature__item" style="margin-top: 10px;">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/portrait.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title">
+                <h3 itemprop="name"><a href="https://neu3ca.github.io/member/paul/">Maarten Paulides</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center"></p>
+                    <p style="font-size: 15px; text-align: center"> 
+                    </p>
+            </div>   
+        </div>
+      </div>
+    </div> 
+
+<!------>
+</div>
+
+
+
+<!------------------------------------------------------ NeuroPlatform ----------------------------------------------------->
+
+
+<h2 style="margin-bottom: 25px; text-align: center; margin-top: -0.1em; margin-bottom: 2em;">NeuroPlatform</h2>
+
+<div class="feature__wrapper" style="width: 100%;">
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/marcomatters.jpeg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name"><a href="https://neu3ca.github.io/member/bert/">Marco Matters</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">Affiliate <br /> (Philips Research)</p>
+                    <p style="font-size: 15px; text-align: center">    
+                    I am a Director of New Business Development at Philips Research.</p>
+            </div>   
+        </div>
+      </div>
+    </div>
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/sveta.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name"><a href="https://neu3ca.github.io/member/paul/">Sveta Zinger</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center;">Assistant professor <br /> (TU/e)</p>
+                    <p style="font-size: 15px; text-align: center">    
+                   I am an assistant professor at TU/e, Signal Processing Systems group, Video Coding &amp; Architectures lab.</p>
+            </div>   
+        </div>
+      </div>
+    </div>
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/antondelouw.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name"><a href="https://neu3ca.github.io/member/paul/">Anton de Louw</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">Researcher, PhD supervisor <br /> (KH, TU/e)</p>
+                    <p style="font-size: 15px; text-align: center">    
+                    I am a neurologist at Kempenhaeghe and the medical director of the Academic Centre for Epileptology (ACE).</p>
+            </div>   
+        </div>
+      </div>
+    </div>    
+
+    <div class="feature__item" style="margin-top: 10px;">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/robmestrom.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name"><a href="https://neu3ca.github.io/member/paul/">Rob Mestrom</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">Researcher, PhD supervisor <br /> (TU/e)</p>
+                    <p style="font-size: 15px; text-align: center">    
+                    I am an assistant professor at the Electromagnetics group.</p>
+            </div>   
+        </div>
+      </div>
+    </div>
+
+    <div class="feature__item" style="margin-top: 10px;">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/evelien.png');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name"><a href="https://neu3ca.github.io/member/paul/">Evelien Carette</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">Clinical program director <br /> (UZ Ghent, U Ghent, TU/e, KH)</p>
+                    <p style="font-size: 15px; text-align: center">    
+                    I am the clinical coordinator of the NeuroPlatform program and am daily supervisor of several (PhD)students within our team. In Ghent I also am research coordinator at the Institute for Neuroscience, coordinator Center for Neurophyiological Monitoring and Laboratory for Clinical (CNM) and Experimental Neurophysiology, -biology and -psychology (LCEN3).</p>
+            </div>   
+        </div>
+      </div>
+    </div>
+
+    <div class="feature__item" style="margin-top: 10px;">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/jaap.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name"><a href="https://neu3ca.github.io/member/paul/">Jaap Jansen</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">Assistent professor<br /> (MUMC)</p>
+                    <p style="font-size: 15px; text-align: center">    
+                    I am an assitant professor at the department of Radiology and Nuclear Medicine at Maastricht UMC.</p>
+            </div>   
+        </div>
+      </div>
+    </div>
+
+
+        <div class="feature__item" style="margin-top: 10px;">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/rolf.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name"><a href="https://neu3ca.github.io/member/paul/">Rolf Lamerichs</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">Senior investigator<br />(Philips Research)</p>
+                    <p style="font-size: 15px; text-align: center">    
+                    I am a senior researcher at Philips Research.</p>
+            </div>   
+        </div>
+      </div>
+    </div>
+
+</div>
+
+
+<!------------------------------------------------------ Associate members ----------------------------------------------------->
+
+
+<h2 style="margin-bottom: 25px; text-align: center; margin-top: -0.1em; margin-bottom: 2em;">Associate members</h2>
+
+<div class="feature__wrapper" style="width: 100%;">
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/radujasinschi.jpeg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name"><a href="https://neu3ca.github.io/member/bert/">Radu Jasinchki</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">Affiliate <br /> (Philips Research)</p>
+                    <p style="font-size: 15px; text-align: center">    
+                    I am a senior research scientist at Philips Research.</p>
+            </div>   
+        </div>
+      </div>
+    </div>
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/kristl.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name"><a href="https://neu3ca.github.io/member/bert/">Kristl Vonck</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">Senior investigator<br /> (U Ghent, UZ Ghent)</p>
+                    <p style="font-size: 15px; text-align: center">    
+                    I am a professor of neurology at UZ Ghent.</p>
+            </div>   
+        </div>
+      </div>
+    </div>
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/mykola.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name"><a href="https://neu3ca.github.io/member/bert/">Mykola Pechenizki</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">Professor<br /> (TU/e)</p>
+                    <p style="font-size: 15px; text-align: center">    
+                    I am a professor at the department of Mathemathics and Computer Science at TU/e.</p>
+            </div>   
+        </div>
+      </div>
+    </div>
+
+<!------>
+</div>
+
+
+<!------------------------------------------------------ PhD students ----------------------------------------------------->
+
+
+<h2 style="margin-bottom: 25px; text-align: center; margin-top: -0.1em; margin-bottom: 2em;">PhD students</h2>
+
+<div class="feature__wrapper" style="width: 100%;">
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/antoine.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name">Antoine Bernas</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">(TU/e)</p>
+                    <p style="font-size: 15px; text-align: center">Field: dynamic fMRI analysis.</p>
+                <br />
+            </div>   
+        </div>
+      </div>
+    </div>
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/elles.bmp');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name">Elles Raaymakers</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">(TU/e)</p>
+                <p style="font-size: 15px; text-align: center">Field: effect of electromagnetic stimulation on neuronal microcircuits.</p>
+                <br />
+            </div>   
+        </div>
+      </div>
+    </div>
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/maarten.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name">Maarten van Rossum</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">(TU/e)</p>
+                <p style="font-size: 15px; text-align: center">Field: electromagnetic field modelling to improve Transcranial Magnetic Stimulation (TMS) targeting.</p>
+                <br />
+            </div>   
+        </div>
+      </div>
+    </div>
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/lisanne.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name">Lisanne Breuer</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">(KH)</p>
+                <p style="font-size: 15px; text-align: center">PhD candidate and resident of neuropsychology.</p>
+                <br />
+            </div>   
+        </div>
+      </div>
+    </div>
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/edo.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name">Edo Grevers</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">(KH)</p>
+                <p style="font-size: 15px; text-align: center">PhD candidate and psychologist.</p>
+                <br />
+            </div>   
+        </div>
+      </div>
+    </div>
+
+     <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/gerald.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name">Gerald Drenthen</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">(MUMC)</p>
+                <br />
+            </div>   
+        </div>
+      </div>
+    </div>   
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/sofie.png');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name">Sofie Carrette</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">(UZ Ghent)</p>
+                <p style="font-size: 15px; text-align: center">PhD candidate and neurologist-in-training.</p>
+                <br />
+            </div>   
+        </div>
+      </div>
+    </div>
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/stephan.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name">Stephan Heunis</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center">(TU/e)</p>
+                <br />
+            </div>   
+        </div>
+      </div>
+    </div>
+
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <div class="small-portrait" itemprop="image" style="background-image: url('assets/images/portraits/negar.jpg');">
+            </div>
+            
+          </div>
+        <div class="archive__item-body">
+          
+            <div class="portrait-title" style="margin-top: 10px;">
+                <h3 itemprop="name">Negar Ahmadi</a></h3>
+            </div>
+            <div class="archive__item-excerpt">
+                <p style="font-size: 15px; font-weight: 500; text-align: center"></p>
+                <br />
+            </div>   
+        </div>
+      </div>
+    </div>
+
+<!------>
+</div>    
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    <li><a href="/neuroplatform2/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> NeuroPlatform </a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 me. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/neuroplatform2/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
