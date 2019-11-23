@@ -14,7 +14,7 @@ main:
     - title: Publications
   - title: Events
     sublinks:
-      title: Symposium 2020
+      title: Symposium
       url: /symposium/index.html 
   - title: Contact
     url: /contact/index.html
