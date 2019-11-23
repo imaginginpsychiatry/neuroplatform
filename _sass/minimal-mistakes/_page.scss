@@ -213,7 +213,7 @@ body {
   &--overlay {
     position: relative;
     margin-bottom: 0.2em;
-    padding: 2em 0;
+    padding: 5em 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -229,6 +229,7 @@ body {
       border-style: dashed;
       border-width: medium;
       font-family: frosty;
+      background-image: linear-gradient(rgba(120,120,120, 0.5), rgb(0, 0, 0, 0.2));
     }
 
     .wrapper {
