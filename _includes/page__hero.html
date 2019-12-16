@@ -45,6 +45,7 @@
       {% if page.header.show_overlay_excerpt != false and page.excerpt %}
         <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
+        <p style="margin-left: auto;margin-right: auto;width: 60%;margin-top: 1.5em;margin-bottom: -4em;float: left;"><img src="assets/images/all_logos_transp.png" style="padding-left: 3em;width: 80%;"></p>
       {% if page.read_time %}
         <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
@@ -69,6 +70,5 @@
   {% if page.header.caption %}
     <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
   {% endif %}
-  <p style="margin-left: auto;margin-right: auto;width: 50%;margin-top: 1.5em;margin-bottom: -4em;float: left;"><img src="assets/images/all_logos_transp.png" style="padding-left: 3em;width: 80%;"></p>
 
 </div>
