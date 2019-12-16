@@ -952,7 +952,7 @@ a.reversefootnote:hover { text-decoration: underline; }
 
 body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 100vh; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 
-.initial-content, .search-content { flex: 1 0 auto; }
+.initial-content {background-color: white}, .search-content { flex: 1 0 auto; }
 
 @media (min-width: 64em) { .page { float: right; width: 100%; padding-right: 200px; } }
 @media (min-width: 80em) { .page { width: 100%; padding-right: 300px; } }
