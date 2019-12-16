@@ -15,6 +15,7 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   background-color: white;
+  margin-top: 1em;
 
   @include breakpoint($x-large) {
     max-width: $max-width;
