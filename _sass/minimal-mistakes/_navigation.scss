@@ -222,7 +222,6 @@
     flex: 1;
     overflow: hidden;
     font-size: large;
-    color: white;
 
     li {
       -webkit-box-flex: 0;
@@ -239,7 +238,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: rgb(80,80,81);
+        background: $primary-color;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
@@ -262,7 +261,7 @@
     .dropdown-content {
       display: none;
       position: absolute;
-      background-color: darken(rgb(80,80,81), 3%);
+      background-color: lighten(rgb(80,80,81), 5%);
       min-width: 160px;
       box-shadow: $box-shadow;
       z-index: 1;
