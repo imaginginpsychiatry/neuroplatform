@@ -174,7 +174,6 @@
      ========================================================================== */
 
 .greedy-nav {
-  background-color: rgb(80,80,81);
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -223,6 +222,7 @@
     flex: 1;
     overflow: hidden;
     font-size: large;
+    color: white;
 
     li {
       -webkit-box-flex: 0;
@@ -239,7 +239,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: $primary-color;
+        background: rgb(80,80,81);
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
@@ -262,7 +262,7 @@
     .dropdown-content {
       display: none;
       position: absolute;
-      background-color: darken($background-color, 3%);
+      background-color: darken(rgb(80,80,81), 3%);
       min-width: 160px;
       box-shadow: $box-shadow;
       z-index: 1;
