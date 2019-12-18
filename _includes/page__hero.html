@@ -45,7 +45,12 @@
       {% if page.header.show_overlay_excerpt != false and page.excerpt %}
         <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
-        <p style="margin-left: auto;margin-right: auto;width: 60%;margin-bottom: -3.5em;text-align: center;font-size: 0.85em;color: steelblue;">Eindhoven University of Technology | Philips Research | Kempenhaeghe | UZ Gent</p>
+        <p style="margin-left: auto;margin-right: auto;width: 60%;margin-bottom: -3.5em;text-align: center;font-size: 0.85em;color: steelblue;">
+          <a href="https://tue.nl" style="color: steelblue;text-decoration: none;">Eindhoven University of Technology</a> 
+          | <a href="https://www.philips.com/content/corporate/en_AA/research/home.html/" style="color: steelblue;text-decoration: none;">Philips Research</a> 
+          | <a href="https://www.kempenhaeghe.nl/" style="color: steelblue;text-decoration: none;">Kempenhaeghe</a>
+          | <a href="https://www.uzgent.be/nl/home/Paginas/home.aspx" style="color: steelblue;text-decoration: none;">UZ Gent</a>
+            </p>
       {% if page.read_time %}
         <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
