@@ -8,8 +8,3 @@ $link-color: blue;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-@media only screen and (max-width: 767px) { 
-.avia-data-table-wrap.avia_responsive_table td:before {
-display: none !important;
-}
-}
