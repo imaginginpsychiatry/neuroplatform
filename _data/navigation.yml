@@ -12,6 +12,7 @@ main:
     - title: Projects
       url: /projects/index.html
     - title: Publications
+      url: /publications/index.html
   - title: Events
     sublinks:
     - title: Symposium 2020
